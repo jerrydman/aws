@@ -1,4 +1,5 @@
 #Script to Update AWS Access Keys
+#requires jq to parse the json
 
 
 username=""
