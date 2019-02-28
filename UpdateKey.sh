@@ -16,7 +16,7 @@ newAccessKeyID=$(aws iam create-access-key --user-name $username --profile $prof
 echo "The following are your new keys please put them somewhere safe"
 echo $newAccessKeyID
 echo $newSecretAccessKey
-
+ß
 #Deactivate Old Key
 aws iam update-access-key --access-key-id $oldkey --status Inactive --user-name $username --profile $profile
 
