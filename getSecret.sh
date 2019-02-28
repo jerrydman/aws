@@ -1,6 +1,6 @@
 #Script to Get AWS Secret and save to variable
 #requires jq to parse the json
-
+#Jerry Reid
 
 secretID=""
 region=""
